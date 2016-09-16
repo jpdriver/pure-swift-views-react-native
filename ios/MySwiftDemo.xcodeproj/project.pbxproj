@@ -20,11 +20,12 @@
 		13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB11A68108700A75B9A /* LaunchScreen.xib */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		4FBEEF221D8C166A00F478BD /* SampleViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEEF211D8C166A00F478BD /* SampleViewModule.m */; };
+		4FBEEF241D8C16B600F478BD /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEEF231D8C16B600F478BD /* SampleView.swift */; };
+		4FBEEF261D8C16D600F478BD /* SampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FBEEF251D8C16D600F478BD /* SampleViewManager.swift */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
-		E81996941CAADED000E6DA01 /* SampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E81996931CAADED000E6DA01 /* SampleView.swift */; };
-		E81996A01CAADEE300E6DA01 /* SampleViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E819969F1CAADEE300E6DA01 /* SampleViewManager.swift */; };
-		E81996A31CAADEF600E6DA01 /* SampleViewModule.m in Sources */ = {isa = PBXBuildFile; fileRef = E81996A21CAADEF600E6DA01 /* SampleViewModule.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -127,12 +128,12 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = MySwiftDemo/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = MySwiftDemo/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		4FBEEF111D8C149900F478BD /* MySwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		4FBEEF211D8C166A00F478BD /* SampleViewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleViewModule.m; path = MySwiftDemo/SampleViewModule.m; sourceTree = "<group>"; };
+		4FBEEF231D8C16B600F478BD /* SampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleView.swift; path = MySwiftDemo/SampleView.swift; sourceTree = "<group>"; };
+		4FBEEF251D8C16D600F478BD /* SampleViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleViewManager.swift; path = MySwiftDemo/SampleViewManager.swift; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		E81996921CAADED000E6DA01 /* MySwiftDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MySwiftDemo-Bridging-Header.h"; sourceTree = "<group>"; };
-		E81996931CAADED000E6DA01 /* SampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleView.swift; path = MySwiftDemo/SampleView.swift; sourceTree = "<group>"; };
-		E819969F1CAADEE300E6DA01 /* SampleViewManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SampleViewManager.swift; path = MySwiftDemo/SampleViewManager.swift; sourceTree = "<group>"; };
-		E81996A21CAADEF600E6DA01 /* SampleViewModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SampleViewModule.m; path = MySwiftDemo/SampleViewModule.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				140ED2AC1D01E1AD002B40FF /* libReact.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -241,15 +243,15 @@
 			children = (
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
+				4FBEEF231D8C16B600F478BD /* SampleView.swift */,
+				4FBEEF251D8C16D600F478BD /* SampleViewManager.swift */,
+				4FBEEF211D8C166A00F478BD /* SampleViewModule.m */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
-				E81996931CAADED000E6DA01 /* SampleView.swift */,
-				E819969F1CAADEE300E6DA01 /* SampleViewManager.swift */,
-				E81996A21CAADEF600E6DA01 /* SampleViewModule.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				E81996921CAADED000E6DA01 /* MySwiftDemo-Bridging-Header.h */,
+				4FBEEF111D8C149900F478BD /* MySwiftDemo-Bridging-Header.h */,
 			);
 			name = MySwiftDemo;
 			sourceTree = "<group>";
@@ -554,10 +556,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E81996A31CAADEF600E6DA01 /* SampleViewModule.m in Sources */,
+				4FBEEF221D8C166A00F478BD /* SampleViewModule.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
-				E81996941CAADED000E6DA01 /* SampleView.swift in Sources */,
-				E81996A01CAADEE300E6DA01 /* SampleViewManager.swift in Sources */,
+				4FBEEF241D8C16B600F478BD /* SampleView.swift in Sources */,
+				4FBEEF261D8C16D600F478BD /* SampleViewManager.swift in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -589,10 +591,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -610,10 +608,6 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
 				INFOPLIST_FILE = MySwiftDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -635,7 +629,11 @@
 				);
 				INFOPLIST_FILE = MySwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_NAME = MySwiftDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -654,7 +652,11 @@
 				);
 				INFOPLIST_FILE = MySwiftDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				OTHER_LDFLAGS = "-ObjC";
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-ObjC",
+					"-lc++",
+				);
 				PRODUCT_NAME = MySwiftDemo;
 				SWIFT_OBJC_BRIDGING_HEADER = "MySwiftDemo-Bridging-Header.h";
 			};
