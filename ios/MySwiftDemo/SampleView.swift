@@ -2,7 +2,7 @@
 //  SampleView.swift
 //  MySwiftDemo
 //
-//  Created by JP Driver on 3/29/16.
+//  Created by JP Driver on 9/16/16.
 //  Copyright © 2016 Facebook. All rights reserved.
 //
 
@@ -11,11 +11,11 @@ import UIKit
 class SampleView: UIView {
   
   override init(frame: CGRect) {
-    super.init(frame: frame);
+    super.init(frame: frame)
     
-    let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 50))
+    let label = UILabel(frame: CGRect(x: 0, y: 0, width: 100, height: 15))
     label.text = "This is Swift"
-    self.addSubview(label);
+    self.addSubview(label)
   }
   
   required init?(coder aDecoder: NSCoder) {

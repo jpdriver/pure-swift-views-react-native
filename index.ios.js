@@ -1,11 +1,12 @@
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
+ * @flow
  */
 
-import React, {
+import React, { Component } from 'react';
+import {
   AppRegistry,
-  Component,
   StyleSheet,
   Text,
   View
@@ -27,7 +28,7 @@ class MySwiftDemo extends Component {
           Press Cmd+R to reload,{'\n'}
           Cmd+D or shake for dev menu
         </Text>
-        <SampleView />
+        <SampleView style={styles.view} />
       </View>
     );
   }
@@ -50,6 +51,10 @@ const styles = StyleSheet.create({
     color: '#333333',
     marginBottom: 5,
   },
+  view: {
+    margin: 10,
+    width: 100
+  }
 });
 
 AppRegistry.registerComponent('MySwiftDemo', () => MySwiftDemo);

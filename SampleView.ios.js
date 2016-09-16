@@ -1,17 +1,4 @@
-import React, { requireNativeComponent, Component, StyleSheet } from 'react-native';
+import { requireNativeComponent } from 'react-native';
 
-const SampleViewNative = requireNativeComponent('SampleView', SampleView);
-
-class SampleView extends Component {
-  render() {
-    return <SampleViewNative style={styles.sample} />;
-  }
-}
-
-const styles = StyleSheet.create({
-  sample: {
-    marginLeft: -100
-  },
-});
-
-module.exports = SampleView;
+// requireNativeComponent automatically resolves this to "SampleViewManager"
+module.exports = requireNativeComponent('SampleView', null);
