@@ -14,7 +14,7 @@ import {
 
 const SampleView = require('./SampleView.ios.js');
 
-class MySwiftDemo extends Component {
+export default class MySwiftDemo extends Component {
   render() {
     return (
       <View style={styles.container}>

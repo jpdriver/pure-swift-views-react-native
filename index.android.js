@@ -12,7 +12,7 @@ import {
   View
 } from 'react-native';
 
-class MySwiftDemo extends Component {
+export default class MySwiftDemo extends Component {
   render() {
     return (
       <View style={styles.container}>
